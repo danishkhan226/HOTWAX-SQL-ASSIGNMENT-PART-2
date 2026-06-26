@@ -6,7 +6,7 @@ SQL commands follow a specific logical execution order so that the database can 
 # SQL Execution Flow
 
 The logical execution order of a SQL query is:
-
+```
 FROM
     ↓
 JOIN
@@ -26,7 +26,7 @@ DISTINCT
 ORDER BY
     ↓
 LIMIT
-
+```
 ## 1. FROM
 
 The `FROM` clause is executed first. It tells the database which table or tables should be used to retrieve data.
